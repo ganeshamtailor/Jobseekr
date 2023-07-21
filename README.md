@@ -1,7 +1,7 @@
 ## 🚀 Live
 
 ```sh
-exp://exp.host/@ganeshamtailor/React_Native_Jobs?release-channel=default
+https://expo.dev/@ganeshamtailor/React_Native_Jobs?serviceType=classic&distribution=expo-go
 ```
 
 # Expo Router Example
