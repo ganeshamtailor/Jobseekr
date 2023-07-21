@@ -5,10 +5,10 @@ https://expo.dev/@ganeshamtailor/React_Native_Jobs?serviceType=classic&distribut
 ```
 
 # Screenshots
-![1](https://github.com/ganeshamtailor/Jobseekr/assets/53623311/994695da-adfa-49de-b71a-048bc63cf719)
-![2](https://github.com/ganeshamtailor/Jobseekr/assets/53623311/57420da0-5e71-4b96-8dd0-bfa76609fa91)
-![3](https://github.com/ganeshamtailor/Jobseekr/assets/53623311/f7e8cb8a-06c0-46da-a338-056f38a49241)
 
+<img src="https://github.com/ganeshamtailor/Jobseekr/assets/53623311/994695da-adfa-49de-b71a-048bc63cf719" width="200">
+<img src="https://github.com/ganeshamtailor/Jobseekr/assets/53623311/57420da0-5e71-4b96-8dd0-bfa76609fa91" width="200">
+<img src="https://github.com/ganeshamtailor/Jobseekr/assets/53623311/f7e8cb8a-06c0-46da-a338-056f38a49241" width="200">
 
 # Expo Router Example
 
