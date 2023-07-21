@@ -1,3 +1,9 @@
+## 🚀 Live
+
+```sh
+exp://exp.host/@ganeshamtailor/React_Native_Jobs?release-channel=default
+```
+
 # Expo Router Example
 
 Use [`expo-router`](https://expo.github.io/router) to build native navigation using files in the `app/` directory.
