@@ -1,6 +1,6 @@
 import { Stack, useRouter, useSearchParams } from "expo-router";
 import { useCallback, useState } from "react";
-import { View, Text, SafeAreaView, ScrollView, ActivityIndicator, RefreshControl } from "react-native";
+import { View, Text, SafeAreaView, ScrollView, ActivityIndicator, RefreshControl, Share, Alert } from "react-native";
 
 import { Company, JobAbout, JobFooter, JobTabs, ScreenHeaderBtn, Specifics } from "../../components";
 import { COLORS, icons, SIZES } from "../../constants";
@@ -54,6 +54,17 @@ const JobDetails = () => {
         }
     }
 
+    const onShare = async () => {
+        try {
+          const result = await Share.share({
+            message: data[0]?.job_google_link,
+          });
+          
+        } catch (error) {
+          Alert.alert(error.message);
+        }
+      };
+
     return (
         <SafeAreaView style={{ flex: 1, backgroundColor: COLORS.lightWhite }}>
             <Stack.Screen
@@ -69,7 +80,7 @@ const JobDetails = () => {
                         />
                     ),
                     headerRight: () => (
-                        <ScreenHeaderBtn iconUrl={icons.share} dimension='60%' />
+                        <ScreenHeaderBtn iconUrl={icons.share} dimension='60%' handlePress={onShare}/>
                     ),
                     headerTitle: "",
                 }}
